@@ -1,0 +1,29 @@
+{
+  "name": "promise-process",
+  "version": "0.0.1",
+  "description": "Convert (finite) nodejs child process to bluebird Promise ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankandrobot/promise-process.git"
+  },
+  "keywords": [
+    "child",
+    "process",
+    "spawn",
+    "bluebird",
+    "Promise"
+  ],
+  "author": "Uri <uri@frankandrobot.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankandrobot/promise-process/issues"
+  },
+  "homepage": "https://github.com/frankandrobot/promise-process#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1"
+  }
+}
