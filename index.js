@@ -25,6 +25,8 @@ function fromProcess(childProcess, opts) {
 
     childProcess.stderr.on('data', error => errorMsg += error);
 
+    childProcess.on('error', error => errorMsg += error);
+
     childProcess.on('close', (exitCode) => {
 
       const hasError = exitCode !== 0;

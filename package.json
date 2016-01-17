@@ -1,6 +1,6 @@
 {
     "name": "bluebird-promise-process",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Convert (finite) nodejs child process to bluebird Promise ",
     "main": "index.js",
     "scripts": {
